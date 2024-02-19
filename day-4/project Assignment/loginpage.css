@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+
+}
+.container{
+    height: 100vh;
+    background-image: url(login-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Login{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.Login h3 {
+    color:black;
+    padding-top: 25px;
+    font-size: 35px;
+}
+.Login p {
+    color:black;
+    padding-top: 10px;
+    font-size: 15px;
+    opacity: 0.5;
+}
+.Username{
+    margin-top:  30px;
+    font-size: 30px;
+   
+}
+.Password{
+   
+    margin-top:  30px;
+    font-size: 30px;
+    width: 100%;
+}
+.Password label{
+    display: block;
+    font-size: 20px;
+    margin-top:  30px;
+
+}
+.Username label{
+    display: block;
+    font-size: 20px;
+    margin-top:  30px;
+}
+.Username input{
+   margin-top: 10px;
+    width: 100%;
+    padding:10px;
+   
+}
+.Password input{
+    margin-top: 10px;
+    width: 100%;
+    padding:10px;
+   
+}
+
+.but{
+    margin-bottom:-25px ;
+}
+.but button{
+    background-color: orangered;
+    padding: 14px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0%;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    border: 0;
+}
+.but button:hover{
+    background-color: aqua;
+    color: black;
+}
+@media only screen and (max-width:600px) {
+    .container{
+    height: 100vh;
+    background-color: rgb(41, 41, 221);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}   
+}
+img{
+   width: 150px;
+   height: 150px;
+}

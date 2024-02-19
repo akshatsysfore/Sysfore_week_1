@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sysfore Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" type="text/css" >
+</head>
+<body >
+    
+    <header>
+    <div class="head">
+        <div class="logo"><img src="main-logo.svg" height="100px" width="100px">
+            <p>
+                <a href="#"  style="opacity: 1;">Dashboard</a>
+                <a href="#" >Profile</a>
+            </p>
+            </div>  
+                   
+        <div class="infowrapper">
+            <img src="user-icon.svg" height="20px" width="20px">
+
+        <div class="info"><h3>Akshat Rai</h3><p>Hello Welcome</p>
+
+        </div>
+        </div>
+    </div>
+    <div class="profile" >
+     <h2>Profile Info</h2>
+        <p> Fill your details below</p>
+    </div>
+    
+    </header>
+
+    <div class="content"><form id="formid" method="get">
+        <div class="top">
+            <div class="card AA">
+                <label>First Name</label>
+                <input type="text" name="First name"/>
+            </div>
+            <div class="card AB" >
+                <label>Middle Name</label>
+                <input type="text" name="Middle name"/>
+            </div>
+            <div class="card AC">
+                <label>Last Name</label>
+                <input type="text" name="Last name"/>
+            </div>
+            <div class="card AD">
+                <label>Date Of Birth</label>
+                <input type="text" name="Dob"/>
+            </div>
+             
+            <div class="card BA">
+                <label>Email</label>
+                <input type="text" name="Email"/>
+            </div>
+            <div class="card BB">
+                <label>Phone</label>
+                <input type="text" name="Phone"/>
+            </div>
+            <div class="card BC">
+                <label>Gender</label>
+                <select id="Gender" name="Gender">
+                    <option disabled selected>Select your gender</option>
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                    
+                  </select>
+            </div>
+            <div class="card BD">
+                <label>Blood Group</label>
+                <select id="Blood Group" name="Blood">
+                    <option disabled selected>Select your blood group</option>
+                    <option value="A negative">A+</option>
+                    <option value="B negative">B+</option>
+                    <option value="AB negative">AB+</option>
+                    <option value="O negative">O-</option>
+                    <option value="A negative">A-</option>
+                    <option value="B negative">B-</option>
+                    <option value="AB negative">AB-</option>
+                    <option value="O negative">O-</option>
+                  </select>
+            </div>
+        </div>
+        <div class="bottom">
+            
+            <div class="card CA">
+                <label>Comments</label>
+                <textarea cols="180" rows="12" id="ca" name="comments"></textarea>
+            </div>
+        </div>
+        <div class="buttonwrap">
+            <button id="cancel" onclick="clear()">Cancel </button>
+            <button style="background-color: orangered;" formaction="profile.html">Submit</button>
+            
+        </div>
+    </form>
+    </div>
+   
+    <footer><div class="foot">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div></footer>
+    <script src="dashboard.js"></script>
+</body>
+</html>

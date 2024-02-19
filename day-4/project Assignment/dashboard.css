@@ -1,0 +1,159 @@
+body{
+    margin: 0px;
+    background-color: rgb(235, 235, 235);
+}
+.head{
+    background-color: rgba(31, 31, 199, 0.886);
+    width: 100%;
+    color: #ffffff;
+    font-size: 20px;
+    margin-bottom: 0px;
+    
+}
+.logo img{
+    height: 150px;
+    width:170px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0px;
+    height: 70px;
+}
+.info {
+        margin-right: 15px;
+}
+.info p{ margin-top: 0%;
+        font-size: 14px;
+        
+       }
+.info h3{
+    margin-bottom: 5px;
+}
+
+.logo p{
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.logo a { 
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.5;
+    padding: 20px;
+}
+.logo a:hover{
+    color: white;
+    opacity: 1;
+}
+.profile{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0px;
+}
+.profile h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.profile p{
+    margin-top: 0px;
+    padding-bottom: 10px;
+    opacity: 0.6;
+    margin-left: 25px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+.content{
+    background-color: #ffffff;
+    width:95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 500px;
+    
+}
+.top{
+    display: grid;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(4,100px);
+    
+    
+}
+
+.bottom{ display: flex;
+    align-items: center;
+    margin-left: 144px;
+     
+    margin-top: 20px;  }
+
+.card label{
+    display: block;
+    font-style: bold;
+    font-size: 20px;
+    white-space: nowrap;
+    margin-top:10px;
+}
+.card input{
+    padding: 10px 10px 5px 10px;
+    margin: 0px;
+}
+.buttonwrap{
+    display: flex;
+    align-items: center;
+   justify-content: flex-end;
+   
+   
+}
+.buttonwrap button{
+    margin: 12px;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid grey;
+    
+}
+.BD select{
+   
+ 
+  background-color: #f9f9f9;
+  min-width: 180px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 0.8px solid grey;
+
+}
+.BC select{
+    background-color: #f9f9f9;
+  min-width: 180px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: 0.8px solid grey;
+}
+.infowrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.infowrapper img{
+    padding: 10px;
+    margin: 10px;
+}
