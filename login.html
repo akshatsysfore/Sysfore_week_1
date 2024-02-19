@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 100vh;
+            background-color: rgb(41, 41, 221);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .Login{
+            height: 450px;
+            width: 400px;
+            background-color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+            
+        }
+        .Login h3 {
+            color:black;
+            padding-top: 35px;
+            font-size: 50px;
+        }
+        .Login p {
+            color:black;
+            padding-top: 10px;
+            font-size: 15px;
+            opacity: 0.5;
+        }
+        .Username{
+            margin-top:  30px;
+            font-size: 30px;
+        }
+        .Password{
+            padding-right: 5px;
+            margin-top:  30px;
+            font-size: 30px;
+            width: 100%;
+        }
+        .Password label{
+            display: block;
+            font-size: 20px;
+        
+        }
+        .Username label{
+            display: block;
+            font-size: 20px;
+        }
+        .Username input{
+            margin-top: 10px;
+            width: 100%;
+            padding:10px;
+            padding-left:10px ;
+            padding-right:10px;
+        }
+        .Password input{
+            margin-top: 10px;
+            width: 100%;
+            padding:10px;
+            padding-left:10px ;
+            padding-right:10px;
+        }
+        
+        .but{
+            margin-bottom:-25px ;
+        }
+        .but button{
+            background-color: green;
+            padding: 10px;
+            text-align: center;
+            margin-top: 35px;
+            margin-bottom: 0%;
+            color: white;
+            width: 100%;
+            cursor: pointer;
+        }
+        .but button:hover{
+            background-color: aqua;
+            color: black;
+        }
+        @media only screen and (max-width:600px) {
+            .container{
+            height: 100vh;
+            background-color: rgb(41, 41, 221);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+        }   
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container"  >
+        <div class="Login"><h3>Login</h3>
+        <p> Hello Welcome Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="Username">
+            <label>Username<label>
+            <input type="text" placeholder="yourusername@gmail.com" >
+        </div>
+        <div class="Password">
+            <label>Password<label>
+            <input type="password" placeholder="***********" >
+        </div>
+        <div class="but">
+        <button>Click to login</button>
+        </div>
+        
+    </div>
+    </div>
+    
+</body>
+</html>
